@@ -1,0 +1,112 @@
+
+body {
+    background-image: url("https://spotlightonline.co/wp-content/uploads/2017/03/cinema_projector.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+h1,h2 {
+    font-weight: normal;
+}
+
+#wrapper { 
+    background-color: #eee;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+.page-banner {
+    background-image: url('https://media.gettyimages.com/id/1334590638/photo/rear-view-asian-chinese-group-of-audience-watching-3d-movie-in-cinema-enjoying-the-show-with.jpg?s=612x612&w=gi&k=20&c=KbQfFicepCh56EiuUbORM5q0GOQlatT9SXp0G53C0Ak=');
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+.page-banner h1, .page-banner p {    
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#add-movie, #movie-list {
+    margin: 30px;
+}
+#movie-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#movie-list li {
+    border-left: 5px solid #ddd;
+     padding: 20;
+     margin: 20px 10px;
+ }
+ #movie-list li:hover {
+    border-color: #9361bf;
+}
+.delete {
+    float: right;
+    background: #f70000;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete:hover {
+    background: maroon;
+}
+/* 
+.date{
+    background-color: #444;
+    margin-left: 20px;
+} */
+
+#add-movie {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-movie input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+#add-movie button {
+    border: 1px solid green;
+    background: green;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    border-left: 0;
+    color: white;
+    margin: 20px 0;
+}
+
+#add-movie button:hover {
+    background: darkgreen;
+}
+#add-movie:after{
+    content: "";
+    display : block;
+    clear: both;
+}
+#add-movie label{
+   line-height: 52px;
+}
+ 
+    
