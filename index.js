@@ -28,7 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class="date">${movieObject.date}</span>
             <span class="delete">delete</span>
         `;
+
         list.appendChild(li);
+        
     }
 
     const addForm = forms['add-movie'];
